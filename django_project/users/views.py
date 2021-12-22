@@ -2,6 +2,7 @@ from django.shortcuts import render, redirect
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from .forms import ProfileUpdateForm, UserRegisterForm, UserUpdateForm, ProfileUpdateForm
+from django.contrib.auth import views as auth_views
 
 def register(request):
     if request.method == 'POST':
