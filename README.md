@@ -1,4 +1,5 @@
 This is my first DjangoWeb App
+
 Requirements:
 	certifi==2018.10.15
 	chardet==3.0.4
